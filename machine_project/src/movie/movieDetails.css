@@ -1,0 +1,34 @@
+.movie-details {
+    text-align: center;
+    color: #fff;
+  }
+  
+  .movie-details img {
+    width: 300px;
+    height: auto;
+  }
+  
+  .cast-list {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .cast-member {
+    margin: 10px;
+    text-align: center;
+  }
+  
+  .cast-member__image {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+  }
+  
+  .cast-member__info {
+    margin-top: 10px;
+    font-size: 14px;
+  }
+  

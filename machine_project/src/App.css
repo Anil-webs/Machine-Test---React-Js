@@ -1,0 +1,70 @@
+body{
+  background-color: #464646;
+}
+.MovieDB{
+  color: #fff;
+}
+a{
+  text-decoration: none;
+}
+a:hover{
+  text-decoration: none;
+}
+.movie-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.movie-card {
+
+border-radius: 5px;
+overflow: hidden;
+width: 200px;
+text-align: center;
+margin: 20px;
+}
+
+.movie-card__image {
+width: 100%;
+height: auto;
+}
+
+.movie-card__details {
+padding: 10px;
+}
+
+.movie-card__title {
+font-size: 18px;
+margin: 10px 0;
+color: #fff;
+}
+
+.movie-card__rating {
+font-size: 16px;
+color: #f5f2f2;
+}
+
+.links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: end;
+  gap: 1rem;
+}
+
+.App {
+  text-align: center;
+}
+
+.links {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.movie-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
